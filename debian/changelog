@@ -1,0 +1,40 @@
+golang-github-jinzhu-gorm (1.9.6-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #819641)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Sat, 05 Dec 2020 04:50:22 +0900
+
+golang-github-jinzhu-gorm (1.9.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add myself to the list of Uploaders.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Mon, 26 Nov 2018 15:39:05 +0900
+
+golang-github-jinzhu-gorm (1.0+git20180218.58e3472-2) unstable; urgency=medium
+
+  * Point Vcs-* urls to salsa.debian.org.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 02 Apr 2018 18:25:04 -0400
+
+golang-github-jinzhu-gorm (1.0+git20180218.58e3472-1) unstable; urgency=medium
+
+  [ Dmitry Smirnov ]
+  * Introducing "watch" file
+
+  [ Michael Stapelberg ]
+  * New upstream version 1.0+git20180218.58e3472
+  * Drop debian/patches in favor of declaring now-packaged deps
+  * add myself to uploaders
+  * priority: extra → optional
+  * use secure copyright URL
+  * bump debhelper compat to 11
+  * bump standards-version to 4.1.3 (no changes necessary)
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sun, 18 Feb 2018 20:47:04 +0100
+
+golang-github-jinzhu-gorm (0.0~git20151012.0.20e37a0-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Tianon Gravi <tianon@debian.org>  Fri, 16 Oct 2015 12:23:19 -0700
